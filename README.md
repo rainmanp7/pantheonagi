@@ -4,7 +4,8 @@
 **ORCID:** 0009-0008-4741-3108  
 **Contact:** muslimsoap@gmail.com, rainmanp7@gmail.com  
 **Location:** Zone 4, Santa Cruz, Davao Del Sur, Mindanao, Philippines  
-**License:** Apache 2.0
+**License:** Apache 2.0  
+**DOI:** [10.5281/zenodo.17622673](https://doi.org/10.5281/zenodo.17622673)
 
 ## 🎯 Breakthrough Discovery
 
@@ -29,7 +30,6 @@ pantheonagi/
 ### Prerequisites
 - Python 3.8+
 - NumPy
-- (Optional) Julia for future implementations
 
 ### Run the Verification
 ```bash
@@ -82,14 +82,6 @@ This will:
 | 3D      | 8D      | +2.4%       |
 | 6D      | 9D      | +2.2%       |
 
-## 🎯 Research Significance
-
-This work provides **the first reproducible evidence** that:
-- AI collectives can exhibit **emergent meta-learning**
-- **Abstract knowledge** can transfer between different problem domains
-- **Synergistic collaboration** creates capabilities beyond individual specialists
-- **Verifiable AGI foundations** are achievable with current methods
-
 ## 📚 Citation
 
 ```bibtex
@@ -97,10 +89,19 @@ This work provides **the first reproducible evidence** that:
   title = {The Pantheon Architecture: A Verifiable Foundation for Artificial General Intelligence},
   author = {Christopher Brown},
   year = {2024},
-  url = {https://github.com/username/pantheonagi},
+  doi = {10.5281/zenodo.17622673},
+  url = {https://doi.org/10.5281/zenodo.17622673},
   note = {Fixed seed: 657454018}
 }
 ```
+
+## 🎯 Research Significance
+
+This work provides **the first reproducible evidence** that:
+- AI collectives can exhibit **emergent meta-learning**
+- **Abstract knowledge** can transfer between different problem domains
+- **Synergistic collaboration** creates capabilities beyond individual specialists
+- **Verifiable AGI foundations** are achievable with current methods
 
 ## 🔮 Future Work
 
@@ -116,3 +117,5 @@ Apache 2.0 - See LICENSE file for details.
 ---
 
 **Verification Note:** All results are reproducible using fixed seed `657454018`. The complete evidence is available in `meta_learning_evidence_zenodo_version.json`.
+
+**Archival Status:** This research is permanently archived via Zenodo DOI: [10.5281/zenodo.17622673](https://doi.org/10.5281/zenodo.17622673)
