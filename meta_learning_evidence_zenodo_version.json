@@ -1,0 +1,379 @@
+{
+  "timestamp": "2025-11-16T18:06:46.058175",
+  "used_seed": 657454018,
+  "performance_baselines": {
+    "3": 0.346,
+    "4": 0.32,
+    "5": 0.298,
+    "6": 0.184,
+    "7": 0.148,
+    "8": 0.148,
+    "9": 0.132,
+    "10": 0.156,
+    "11": 0.118,
+    "12": 0.13
+  },
+  "knowledge_transfers": [
+    {
+      "source": 3,
+      "target": 4,
+      "improvement": -0.020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.32,
+      "post_transfer": 0.3
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "improvement": -0.033999999999999975,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.298,
+      "post_transfer": 0.264
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "improvement": -0.01200000000000001,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.184,
+      "post_transfer": 0.172
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "improvement": 0.010000000000000009,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.158
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "improvement": 0.023999999999999994,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.172
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "improvement": 0.01999999999999999,
+      "transfer_strength": 0.005,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.152
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "improvement": -0.0040000000000000036,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.152
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "improvement": 0.014000000000000012,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.132
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "improvement": 0.0040000000000000036,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.134
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "improvement": 0.01200000000000001,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.298,
+      "post_transfer": 0.31
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "improvement": -0.008000000000000007,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.184,
+      "post_transfer": 0.176
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "improvement": 0.01200000000000001,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.16
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "improvement": 0.0020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.15
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "improvement": -0.006000000000000005,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.126
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "improvement": -0.017999999999999988,
+      "transfer_strength": 0.005,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.138
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "improvement": 0.01200000000000001,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.13
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "improvement": -0.0020000000000000018,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.128
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "improvement": 0.01999999999999999,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.184,
+      "post_transfer": 0.204
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "improvement": 0.010000000000000009,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.158
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "improvement": 0.03,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.178
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "improvement": 0.032,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.164
+    },
+    {
+      "source": 5,
+      "target": 10,
+      "improvement": -0.036000000000000004,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.12
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "improvement": 0.006000000000000005,
+      "transfer_strength": 0.005,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.124
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "improvement": 0.013999999999999985,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.144
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "improvement": 0.010000000000000009,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.158
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "improvement": -0.013999999999999985,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.134
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "improvement": 0.021999999999999992,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.154
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "improvement": 0.0020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.158
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "improvement": -0.013999999999999999,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.104
+    },
+    {
+      "source": 6,
+      "target": 12,
+      "improvement": -0.0020000000000000018,
+      "transfer_strength": 0.005,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.128
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "improvement": 0.020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.148,
+      "post_transfer": 0.168
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "improvement": 0.017999999999999988,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.15
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "improvement": -0.03,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.126
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "improvement": 0.018000000000000016,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.136
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "improvement": -0.008000000000000007,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.122
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "improvement": 0.013999999999999985,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.132,
+      "post_transfer": 0.146
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "improvement": -0.041999999999999996,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.114
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "improvement": 0.020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.138
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "improvement": 0.0020000000000000018,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.132
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "improvement": -0.010000000000000009,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.156,
+      "post_transfer": 0.146
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "improvement": 0.025999999999999995,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.144
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "improvement": 0.0040000000000000036,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.134
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "improvement": 0.008000000000000007,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.118,
+      "post_transfer": 0.126
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "improvement": 0.006000000000000005,
+      "transfer_strength": 0.015,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.136
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "improvement": -0.016,
+      "transfer_strength": 0.01,
+      "pre_transfer": 0.13,
+      "post_transfer": 0.114
+    }
+  ],
+  "total_specialists": 10
+}
