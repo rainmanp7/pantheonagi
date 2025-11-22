@@ -118,10 +118,19 @@ Apache 2.0 - See LICENSE file for details.
 
 **Verification Note:** 
 All results are reproducible using fixed seed `657454018`. The complete evidence is available in `meta_learning_evidence_zenodo_version.json`.
+
+---
+
 (((  Do not use Random Seeds! )))
+(( Use Fixed Seed or None ))
+
 The emergent behavior will become random results.
+
 Emergence will give 0.0 or 1.0 random each 
+
 time across your information.
+
+---
 
 **Archival Status:** This research is permanently archived via Zenodo DOI: [10.5281/zenodo.17622673](https://doi.org/10.5281/zenodo.17622673)
 
