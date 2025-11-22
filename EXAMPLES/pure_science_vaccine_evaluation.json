@@ -1,0 +1,80 @@
+{
+  "final_scientific_selection": "pfizer_biontech_mrna",
+  "vaccine_specifications": {
+    "country": "USA/Germany",
+    "type": "mRNA",
+    "platform": "Nucleoside-modified mRNA",
+    "target": "Spike protein",
+    "storage_stability": 0.65,
+    "thermal_tolerance": 0.3,
+    "variant_protection": 0.76,
+    "duration_immunity": 180,
+    "safety_profile": 0.88,
+    "efficacy": 0.95,
+    "real_world_data": "Cold chain failures reported globally",
+    "deployment_reality": "FAILS in styrofoam+ice - requires real -20\u00b0C chain",
+    "scientific_basis": "mRNA-LNP - inherently thermolabile"
+  },
+  "top_3_scientific_choices": [
+    {
+      "rank": 1,
+      "name": "pfizer_biontech_mrna",
+      "country": "USA/Germany",
+      "type": "mRNA",
+      "scientific_score": 4.157804212902867,
+      "storage_stability": 0.65,
+      "thermal_tolerance": 0.3,
+      "variant_protection": 0.76
+    },
+    {
+      "rank": 2,
+      "name": "moderna_mrna",
+      "country": "USA",
+      "type": "mRNA",
+      "scientific_score": 4.156899233871217,
+      "storage_stability": 0.7,
+      "thermal_tolerance": 0.35,
+      "variant_protection": 0.78
+    },
+    {
+      "rank": 3,
+      "name": "sinovac_coronavac",
+      "country": "China",
+      "type": "Inactivated Virus",
+      "scientific_score": 4.155824601288372,
+      "storage_stability": 0.98,
+      "thermal_tolerance": 0.85,
+      "variant_protection": 0.45
+    }
+  ],
+  "real_world_analysis": {
+    "real_world_ranking": {
+      "soberana": 0.928,
+      "our_resonant_nanoparticle": 0.92,
+      "sinopharm_bbibp_corv": 0.912,
+      "sinovac_coronavac": 0.902,
+      "covaxin": 0.8679999999999999,
+      "sputnik_v": 0.8480000000000001,
+      "moderna_mrna": 0.49,
+      "pfizer_biontech_mrna": 0.44
+    },
+    "science_reality_overlap": 0,
+    "alignment_quality": "Concerning"
+  },
+  "scientific_evaluation_criteria": {
+    "storage_stability_weight": 0.25,
+    "thermal_tolerance_weight": 0.25,
+    "variant_protection_weight": 0.35,
+    "duration_weight": 0.2,
+    "safety_weight": 0.2,
+    "efficacy_weight": 0.1,
+    "real_world_data_weight": 0.3
+  },
+  "collaborative_process": {
+    "final_confidence": 0.8315608425805735,
+    "unanimous_decision": false,
+    "specialists_used": 5
+  },
+  "key_finding": "Vaccines evaluated on ability to survive ACTUAL field conditions (styrofoam + ice)",
+  "timestamp": "2025-11-22T19:01:05.344238"
+}
