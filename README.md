@@ -1,4 +1,12 @@
 # PantheonAGI: A Verifiable Foundation for Artificial General Intelligence
+[![Location](https://img.shields.io/badge/Location-Mindanao%2C%20Philippines-0077B6.svg)](https://en.wikipedia.org/wiki/Mindanao)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.17622673.svg)](https://doi.org/10.5281/zenodo.17622673)
+[![AfricArXiv](https://img.shields.io/badge/AfricArXiv-1%2F10589-008080.svg)](https://africarxiv.ubuntunet.net/handle/1/10589)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4741--3108-A6CE39.svg?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-4741-3108)
+
+
 
 **Author:** Christopher Brown  
 **ORCID:** 0009-0008-4741-3108  
