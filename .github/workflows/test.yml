@@ -17,7 +17,7 @@ jobs:
     # 1. Checkout repository (Pinned to a specific SHA for security)
     - name: Checkout repository
       # Pinned to actions/checkout@v4.1.6 (example SHA)
-      uses: actions/checkout@a5ac7e51b41094c92402da3b109e23a30c283b68 
+      uses: actions/checkout@v4 
 
     # 2. Set up Python (Pinned to a specific SHA for security)
     - name: Set up Python
