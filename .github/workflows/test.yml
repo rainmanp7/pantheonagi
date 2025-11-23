@@ -1,0 +1,66 @@
+# .github/workflows/run-meta-learning.yml
+name: Run MetaLearning Program
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-meta-learning:
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    # 1. Checkout repository (Pinned to a specific SHA for security)
+    - name: Checkout repository
+      # Pinned to actions/checkout@v4.1.6 (example SHA)
+      uses: actions/checkout@a5ac7e51b41094c92402da3b109e23a30c283b68 
+
+    # 2. Set up Python (Pinned to a specific SHA for security)
+    - name: Set up Python
+      # Pinned to actions/setup-python@v4.7.1 (example SHA)
+      uses: actions/setup-python@82c7ce63d64757c91942858b763a9dc6312bb4d8 
+      with:
+        python-version: '3.9'
+
+    # 3. Install dependencies from a file
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # Assumes you have a 'requirements.txt' file in your repository root
+        if [ -f "requirements.txt" ]; then
+          pip install -r requirements.txt
+        else
+          echo "⚠️ requirements.txt not found. Attempting to install core packages directly."
+          pip install torch numpy
+        fi
+
+    # 4. Verify required files
+    - name: Verify required files
+      run: |
+        echo "📁 Repository contents:"
+        ls -la
+        echo ""
+        # Check for the main script
+        if [ -f "MetaLearning.py" ]; then
+          echo "✅ MetaLearning.py found"
+        else
+          echo "❌ MetaLearning.py missing"
+          exit 1
+        fi
+        # Check for the weights/data file
+        if [ -f "EAMC_weights_v2.json" ]; then
+          echo "✅ EAMC_weights_v2.json found"
+        else
+          echo "❌ EAMC_weights_v2.json missing"
+          exit 1
+        fi
+
+    # 5. Run MetaLearning Program
+    - name: Run MetaLearning Program
+      run: |
+        echo "🚀 Starting MetaLearning.py..."
+        python MetaLearning.py
