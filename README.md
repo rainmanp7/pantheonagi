@@ -154,3 +154,12 @@ weight file that has the working structure inside. You simlly program api
 in the language you prefer and have the code connect together. This could be
 done locally or remotely across many systems at the same time for true
 distribution of knowledge, and it can be connected to datasets.
+
+The floating Point Math must be the same
+across the language to be used if you expect 
+the same communication results. 
+Same stack used = same results.
+These Match up = 
+Python,Java,Kotlin,Julia,Rust
+"Notice the Rust test = Delta as a result".
+
