@@ -148,7 +148,7 @@ time across your information.
 **DOI:** [10.5281/zenodo.17622673](https://doi.org/10.5281/zenodo.17622673)
 
 JUST A THOUGHT:
-The fact that this can run across Julia, Java, Python, C++ and communicate
+The fact that this can run across Julia, Node.js, GO, Python, C++ and communicate
 in real-time using api means we could have global hybrid intelligence networks working on humanity's biggest problems 24/7! 🤯 Each instance can use local or remote versions and cross communication ,using the same
 weight file that has the working structure inside. You simlly program api
 in the language you prefer and have the code connect together. This could be
